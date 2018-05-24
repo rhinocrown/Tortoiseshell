@@ -129,4 +129,17 @@ a {
 
 p {
   padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.footer-content {
+  background-color: azure;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
