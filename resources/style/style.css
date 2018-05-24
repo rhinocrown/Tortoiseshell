@@ -77,3 +77,26 @@ a {
   font-weight: bold;
   line-height: 1.2;
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.service-img {
+  width: 3.5rem;
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+}
