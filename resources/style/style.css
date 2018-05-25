@@ -146,11 +146,133 @@ p {
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
-  align-items: center;
 }
 
 .footer-content img {
   height: 1.5rem;
   margin-left: 4rem;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .site-container {
+    width: 100%;
+  }
+
+  header {
+    top: 0;
+  }
+
+  .main-banner {
+    height: 22rem;
+  }
+
+  .banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    line-height:1.2rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
+
+  .company-info {
+    justify-content: center;
+  }
+
+  .footer-content {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .main-banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .logo span {
+    display: none;
+    text-align: center;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .menu-link {
+    display: block;
+  }
+
+  .banner {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-top: 9rem;
+    padding: .25rem 0;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 2.23rem;
+  }
+
+  .service-item {
+    margin: 0;
+    height: auto;
+    padding-bottom: 1.54rem;
+  }
+
+  .service-img {
+    padding-bottom: 1rem;
+  }
+
+  .service-item span {
+    font-size: 0.77rem;
+  }
+
+  .company-info {
+    flex-direction: column;
+  }
+
+  .info-item {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .item {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  p {
+    padding: 1rem 0.25rem 4rem 0.25rem;
+    font-size: 0.77rem;
+  }
+
+  .footer-content {
+    padding: 4rem 0 4rem 0;
+    justify-content: center;
+  }
+
+  .footer-content img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .footer-content span {
+    display: none;
+  }
 }
