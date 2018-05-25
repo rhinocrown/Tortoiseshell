@@ -18,44 +18,62 @@ body {
   background-position: center;
   background-size: cover;
   width: 100%;
+  height: 540px;
   height: 30rem;
 }
 
 header {
   position: relative;
+  top: 18px;
   top: 1rem;
+  padding-top: 18px;
   padding-top: 1rem;
+  padding-bottom: 18px;
   padding-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: cadetblue;
   color: white;
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50%;
+  margin-left: 36px;
   margin-left: 2rem;
 }
 
 .logo img {
+  height: 27px;
   height: 1.5rem;
   display: inline;
+  margin-right: 18px;
   margin-right: 1rem;
 }
 
 .logo span {
   color: white;
+  font-size: 18px;
   font-size: 1rem;
 }
 
 nav {
   display: inline;
+  padding-top: 4.5px;
   padding-top: 0.25rem;
 }
 
 nav span {
+  margin-right: 36px;
   margin-right: 2rem;
 }
 
@@ -69,41 +87,67 @@ a {
 }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .banner {
   background-color: white;
+  padding: 13.5px 90px;
   padding: 0.75rem 5rem;
   display: inline-block;
+  margin-top: 180px;
   margin-top: 10rem;
+  margin-right: -36px;
   margin-right: -2rem;
+  line-height: 43.199px;
   line-height: 2.4rem;
 }
 
 h1 {
+    font-size: 36px;
     font-size: 2rem;
     font-weight: bold;
     margin: .67em 0;
 }
 
 .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .service-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
   width: 5rem;
+  height: 144px;
   height: 8rem;
+  margin: 54px;
   margin: 3rem;
 }
 
 .service-img {
+  width: 63px;
   width: 3.5rem;
 }
 
@@ -117,40 +161,59 @@ h1 {
 }
 
 .company-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 35%;
   margin-left: 5%;
 }
 
 .item {
+  padding: 9px 22.5px;
   padding: 0.5rem 1.25rem;
   background-color: cadetblue;
   color: white;
   font-weight: bold;
+  font-size: 18px;
   font-size: 1rem;
+  width: 180px;
   width: 10rem;
 }
 
 p {
+  padding-top: 18px;
   padding-top: 1rem;
+  padding-bottom: 90px;
   padding-bottom: 5rem;
 }
 
 .footer-content {
   background-color: azure;
+  padding-top: 72px;
   padding-top: 4rem;
+  padding-bottom: 72px;
   padding-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .footer-content img {
+  height: 27px;
   height: 1.5rem;
+  margin-left: 72px;
   margin-left: 4rem;
+  margin-right: 18px;
   margin-right: 1rem;
 }
 
@@ -180,7 +243,9 @@ p {
   }
 
   .company-info {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .footer-content {
@@ -221,8 +286,14 @@ p {
   }
 
   .services {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
     margin-top: 3.77rem;
     margin-bottom: 2.23rem;
   }
@@ -242,7 +313,10 @@ p {
   }
 
   .company-info {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .info-item {
@@ -264,7 +338,9 @@ p {
 
   .footer-content {
     padding: 4rem 0 4rem 0;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .footer-content img {
